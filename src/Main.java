@@ -2,7 +2,14 @@ import javax.sql.rowset.serial.SerialStruct;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задача  №1 - Мили");
+        float price = 6570.89f;
+        short each =20;
+        short bonus = 1;
+        float result = price / each * bonus;
+        short totol = (short)result;
+
+
+        System.out.println(totol);
 
     }
 
