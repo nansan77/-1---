@@ -1,5 +1,3 @@
-import javax.sql.rowset.serial.SerialStruct;
-
 public class Main {
     public static void main(String[] args) {
         float price = 6570.89f;
@@ -7,8 +5,6 @@ public class Main {
         short bonus = 1;
         float result = price / each * bonus;
         short totol = (short)result;
-
-
         System.out.println(totol);
 
     }
